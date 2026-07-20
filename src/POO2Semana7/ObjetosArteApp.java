@@ -55,7 +55,7 @@ public class ObjetosArteApp {
  
             String url = "jdbc:mysql://localhost:3306/Semana7";
             String user = "root";
-            String password = "gato2281";
+            String password = "your_password";
  
             connection = DriverManager.getConnection(url, user, password);
         } catch (ClassNotFoundException | SQLException e) {
